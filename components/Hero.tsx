@@ -27,10 +27,8 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p className="mb-10 max-w-xl text-lg leading-relaxed text-muted sm:text-xl">
-            Un laboratorio digital abierto de herramientas cognitivas,
-            recursos prácticos y experimentación neurotecnológica.
-            Para profesionales, makers y neurocuriosos que prefieren construir
-            antes que prometer.
+            Herramientas cognitivas reales, documentadas con honestidad.
+            Para profesionales y makers que prefieren construir antes que prometer.
           </p>
 
           {/* CTAs */}

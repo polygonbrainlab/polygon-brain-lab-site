@@ -50,18 +50,14 @@ const sections: SectionItem[] = [
 
 export default function SectionGridEn() {
   return (
-    <section id="tools" className="border-b border-wire bg-canvas py-20 sm:py-28">
+    <section id="tools" className="border-b border-wire bg-canvas py-14 sm:py-16">
       <div className="section-container">
         {/* Header */}
-        <div className="mb-14">
+        <div className="mb-10">
           <span className="label-tag mb-4 inline-block">what you&apos;ll find</span>
           <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             The lab
           </h2>
-          <p className="mt-3 max-w-xl text-base text-muted">
-            Four work areas under progressive development.
-            Each section is designed to address a specific need.
-          </p>
         </div>
 
         {/* Grid */}

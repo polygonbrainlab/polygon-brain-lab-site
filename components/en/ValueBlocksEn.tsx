@@ -10,38 +10,31 @@ const blocks: ValueBlock[] = [
     number: "01",
     title: "Tools that do what they say",
     description:
-      "Cognitive mini apps, task generators, and interactive prototypes with clear instructions, explicit variables, and honest limitations. No empty mockups. No demos that go nowhere.",
+      "Cognitive mini apps and interactive prototypes. Clear instructions, explicit variables, and honest limitations.",
     tags: ["open-source", "cognitive tools", "prototype"],
   },
   {
     number: "02",
     title: "Rigour without academic posturing",
     description:
-      "Critical thinking on brain training, cognitive stimulation, neuroplasticity, and AI in health. No grandiosity, no pseudoscience. With the same honesty we demand of our tools.",
+      "Critical thinking on brain training, neuroplasticity, and AI in health. No grandiosity. No pseudoscience.",
     tags: ["critical thinking", "evidence-based", "neuroscience"],
   },
   {
     number: "03",
     title: "Accessible neurotech",
     description:
-      "Sensors, WebXR, basic biofeedback, and physical interfaces that a professional can understand, replicate, and adapt. Useful technology over spectacle. Documentation over promises.",
+      "Sensors, WebXR, and biofeedback that a professional can understand, replicate, and adapt. Useful technology over spectacle.",
     tags: ["neurotech", "webxr", "diy", "accessible"],
-  },
-  {
-    number: "04",
-    title: "Resources for real sessions",
-    description:
-      "Templates, checklists, difficulty guides, and downloadable materials designed for actual work in real contexts. For the professional who needs to solve things today, not in six months.",
-    tags: ["resources", "templates", "clinical", "practical"],
   },
 ];
 
 export default function ValueBlocksEn() {
   return (
-    <section className="border-b border-wire bg-surface py-20 sm:py-28">
+    <section className="border-b border-wire bg-surface py-14 sm:py-16">
       <div className="section-container">
         {/* Header */}
-        <div className="mb-14">
+        <div className="mb-10">
           <span className="label-tag mb-4 inline-block">value proposition</span>
           <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             Why it&apos;s different

@@ -25,9 +25,8 @@ export default function HeroEn() {
 
           {/* Subheadline */}
           <p className="mb-10 max-w-xl text-lg leading-relaxed text-muted sm:text-xl">
-            An open digital lab of cognitive tools, practical resources, and
-            neurotechnology experiments. For professionals, makers, and the
-            neuro-curious who prefer building to promising.
+            Real cognitive tools, documented honestly.
+            For professionals and makers who prefer building to promising.
           </p>
 
           {/* CTAs */}

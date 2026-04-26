@@ -2,7 +2,7 @@ import PolygonDecoration from "./PolygonDecoration";
 
 export default function CTA() {
   return (
-    <section className="relative overflow-hidden border-b border-wire bg-canvas py-24 sm:py-32">
+    <section className="relative overflow-hidden border-b border-wire bg-canvas py-16 sm:py-20">
       {/* Subtle decoration */}
       <PolygonDecoration
         variant="small"
@@ -17,13 +17,11 @@ export default function CTA() {
           </div>
 
           <h2 className="mb-5 text-3xl font-bold tracking-tight text-ink sm:text-4xl text-balance">
-            Polygon Brain Lab quiere ser un repositorio vivo.{" "}
+            Un repositorio vivo.{" "}
             <span className="text-teal">Para construir, no para impresionar.</span>
           </h2>
 
           <p className="mb-10 text-base leading-relaxed text-muted sm:text-lg">
-            Herramientas cognitivas reales, documentadas con honestidad y diseñadas
-            para ser útiles de verdad.
             Explora el proyecto, sigue el roadmap o contribuye desde GitHub.
           </p>
 

@@ -2,7 +2,7 @@ import PolygonDecoration from "../PolygonDecoration";
 
 export default function CTAEn() {
   return (
-    <section className="relative overflow-hidden border-b border-wire bg-canvas py-24 sm:py-32">
+    <section className="relative overflow-hidden border-b border-wire bg-canvas py-16 sm:py-20">
       {/* Subtle decoration */}
       <PolygonDecoration
         variant="small"
@@ -17,13 +17,12 @@ export default function CTAEn() {
           </div>
 
           <h2 className="mb-5 text-3xl font-bold tracking-tight text-ink sm:text-4xl text-balance">
-            Polygon Brain Lab aims to be a living repository.{" "}
+            A living repository.{" "}
             <span className="text-teal">To build, not to impress.</span>
           </h2>
 
           <p className="mb-10 text-base leading-relaxed text-muted sm:text-lg">
-            Real cognitive tools, documented honestly and designed to be genuinely
-            useful. Explore the project, follow the roadmap, or contribute via GitHub.
+            Explore the project, follow the roadmap, or contribute via GitHub.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">

@@ -10,38 +10,31 @@ const blocks: ValueBlock[] = [
     number: "01",
     title: "Herramientas que hacen lo que dicen",
     description:
-      "Mini apps cognitivas, generadores de tareas y prototipos interactivos con instrucciones claras, variables explícitas y limitaciones honestas. No mockups vacíos. No demos sin recorrido.",
+      "Mini apps cognitivas y prototipos interactivos. Instrucciones claras, variables explícitas y limitaciones honestas.",
     tags: ["open-source", "cognitive tools", "prototype"],
   },
   {
     number: "02",
     title: "Rigor sin academicismo pesado",
     description:
-      "Pensamiento crítico sobre brain training, estimulación cognitiva, neuroplasticidad e IA en salud. Sin grandilocuencia ni pseudociencia. Con la misma honestidad que exigimos a las herramientas.",
+      "Pensamiento crítico sobre brain training, neuroplasticidad e IA en salud. Sin grandilocuencia. Sin pseudociencia.",
     tags: ["critical thinking", "evidence-based", "neuroscience"],
   },
   {
     number: "03",
     title: "Neurotech accesible",
     description:
-      "Sensores, WebXR, biofeedback básico e interfaces físicas que un profesional puede entender, replicar y adaptar. Tecnología útil antes que espectáculo. Documentación antes que promesa.",
+      "Sensores, WebXR y biofeedback que un profesional puede entender, replicar y adaptar. Tecnología útil antes que espectáculo.",
     tags: ["neurotech", "webxr", "diy", "accessible"],
-  },
-  {
-    number: "04",
-    title: "Recursos para sesiones reales",
-    description:
-      "Plantillas, checklists, guías de dificultad y materiales descargables pensados para trabajo real en contextos reales. Para el profesional que necesita resolver hoy, no en seis meses.",
-    tags: ["resources", "templates", "clinical", "practical"],
   },
 ];
 
 export default function ValueBlocks() {
   return (
-    <section className="border-b border-wire bg-surface py-20 sm:py-28">
+    <section className="border-b border-wire bg-surface py-14 sm:py-16">
       <div className="section-container">
         {/* Header */}
-        <div className="mb-14">
+        <div className="mb-10">
           <span className="label-tag mb-4 inline-block">propuesta de valor</span>
           <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             Por qué es diferente

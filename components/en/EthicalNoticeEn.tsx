@@ -1,6 +1,6 @@
 export default function EthicalNoticeEn() {
   return (
-    <section className="border-b border-wire bg-surface py-14 sm:py-16">
+    <section className="border-b border-wire bg-surface py-8 sm:py-10">
       <div className="section-container">
         <div className="ethical-block">
           <div className="flex items-start gap-4">
@@ -16,15 +16,9 @@ export default function EthicalNoticeEn() {
               <div className="mb-2 font-mono text-[10px] uppercase tracking-widest text-teal/80">
                 ethical notice
               </div>
-              <p className="mb-3 text-sm font-medium leading-relaxed text-ink">
+              <p className="text-sm font-medium leading-relaxed text-ink">
                 Experimental and educational tool. Does not replace professional
                 assessment, diagnosis, or intervention.
-              </p>
-              <p className="text-sm leading-relaxed text-muted">
-                Stimulation is not rehabilitation. Technology is not evidence.
-                We use these tools with care, and we expect the same from you.
-                Polygon Brain Lab provides support resources for professionals,
-                not direct clinical intervention.
               </p>
 
               {/* Badges */}
